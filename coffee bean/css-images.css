@@ -1,0 +1,49 @@
+/* Background image */
+
+div{
+    height: 670px;
+    width: 100%;
+}
+
+/* Background size */
+
+.div1{
+    /* Image file path */
+    background-image: url(../assets/images/cool-cat.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.div2{
+    background-image: url(../assets/images/twwety.png);
+    /* Background-size can use px or % */
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.div3{
+    background-image: url(../assets/images/chara-kirby.png);
+    background-size: 100px 100px;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.div4{
+    background-image: url(../assets/images/rabit.jpg);
+    background-size: 300px 300px;
+    background-repeat: repeat-y;
+    background-position: center bottom;
+}
+
+.div5{
+    background-image: url(../assets/images/dog.jpg);
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    background-position: center bottom;
+}
+
+.div6{
+    background: crimson url(../assets/images/rabit1.jpg) no-repeat fixed center bottom;
+}
